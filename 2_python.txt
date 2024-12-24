@@ -1,0 +1,12 @@
+# Download python from: https://www.python.org/
+
+# Install Virual Environment
+python -m venv bio_env
+
+# Enable and disable Virtual Environment
+
+# Active
+.\bio_env\Scripts\activate
+
+# Deactivate
+deactivate
