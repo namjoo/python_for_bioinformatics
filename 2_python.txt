@@ -14,9 +14,6 @@ deactivate
 # run python code by CMD
 # Install VSCode
 
-# Varables
-# List
-
 # replace(old,new[,count])
 >>> dna_seq = ’GCTAGTAATGTG’
 >>> m_rna_seq = dna_seq.replace(’T’,’U’)
