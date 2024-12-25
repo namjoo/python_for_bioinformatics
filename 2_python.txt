@@ -10,3 +10,15 @@ python -m venv bio_env
 
 # Deactivate
 deactivate
+
+# run python code by CMD
+# Install VSCode
+
+# replace(old,new[,count])
+>>> dna_seq = ’GCTAGTAATGTG’
+>>> m_rna_seq = dna_seq.replace(’T’,’U’)
+>>> m_rna_seq
+ 
+>>> dna_seq.find("GTA")
+>>> c = dna_seq.count("C")
+>>> len(dna_seq)
