@@ -37,4 +37,6 @@ total_weight = total_weight - (18 * (len(prot_seq) - 1))
 print(’The net weight is: {0}’.format(total_weight))
 
 
-format print
+txt = "For only {price:.2f} dollars!"
+print(txt.format(price = 49))
+print('The net weight is: {1} {0}'.format(50,60))
