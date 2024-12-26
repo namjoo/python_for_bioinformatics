@@ -22,3 +22,5 @@ deactivate
 >>> dna_seq.find("GTA")
 >>> c = dna_seq.count("C")
 >>> len(dna_seq)
+
+format print
