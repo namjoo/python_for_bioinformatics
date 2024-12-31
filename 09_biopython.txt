@@ -22,3 +22,25 @@ my_seq = Seq("GATCG")
 for index, letter in enumerate(my_seq):
     print("%i %s" % (index, letter))
 print(len(my_seq))
+
+
+
+>>> from Bio.Seq import Seq
+>>>"AAAA".count("AA")
+>>>Seq("AAAA").count("AA")
+
+
+from Bio.Seq import Seq
+from Bio.SeqUtils import gc_fraction
+my_seq = Seq("GATCGATGGGCCTATATAGGATCGAAAATCGC")
+gc_fraction(my_seq)
+
+
+
+from Bio.Seq import Seq
+my_seq = Seq("GATCGATGGGCCTATATAGGATCGAAAATCGC")
+print(my_seq[1:4])
+
+
+
+
